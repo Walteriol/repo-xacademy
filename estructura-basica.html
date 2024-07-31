@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="https://www.inexistente.com" method="post"></form>
+    <p>
+        <label for="">Texto</label>
+        <input type="text" id="text">
+    </p>
+    <fieldset>
+        <legend>Checkbox</legend>
+        <ul>
+            <li>
+                <label for="check-op-1">Opcion1</label>
+                <input id="check-op-1" name="check-op-1" type="checkbox">
+            </li>
+            <li>
+                <label for="check-op-2">Opcion1</label>
+                <input id="check-op-2" name="check-op-3" type="checkbox">
+            </li>
+            <li>
+                <label for="check-op-3">Opcion1</label>
+                <input id="check-op-3" name="check-op-1" type="checkbox">
+            </li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Radio Button</legend>
+        <ul>
+            <li>
+                <label for="check-op-1">Opcion1</label>
+                <input id="check-op-1" name="check-op-1" type="radio" value="opcion1">
+            </li>
+            <li>
+                <label for="check-op-2">Opcion2</label>
+                <input id="check-op-2" name="check-op-3" type="radio" value="opcion2">
+            </li>
+            <li>
+                <label for="check-op-3">Opcion1</label>
+                <input id="check-op-3" name="check-op-1" type="radio" value="opcion3">
+            </li>
+        </ul>
+    </fieldset>
+    <p>
+        <label for="Lista">Lista de seleccion</label>
+        <select name="lista" id="lista-seleccion">
+            <option value="opcion1">opcion1</option>
+            <option value="opcion2">opcion2</option>
+            <option value="opcion3">opcion3</option>
+            <option value="opcion4">opcion4</option>
+        </select>
+    </p>
+    <p>
+        <button  type="button">accion personalizar</button>
+        <button type="reset">Limiar</button>
+        <button type="submit">Enviar</button>
+    </p>
+    </form>
+</body>
+</html>
